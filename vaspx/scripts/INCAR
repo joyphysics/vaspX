@@ -1,0 +1,62 @@
+#System Info
+  SYSTEM    = "NdMnO3"
+
+#Electronic minimization
+  ENCUT     = 520
+  EDIFF     = 1E-6
+  LORBIT    = 11
+  LREAL     = Auto
+  ISTART    = 0
+  ISYM      = 1
+  NELMIN    = 6
+  ALGO      = Normal
+  PREC      = Accurate
+  SIGMA     = 0.05
+  NELM      = 150
+#  LWAVE     = .TRUE.
+#  LCHARG    = .TRUE.
+#  ICHARG   = 11
+  
+  
+# SOC
+#  LSORBIT   = .TRUE.
+#  LORBMOM   = .TRUE.
+#  SAXIS     = 0 0 1
+#  GGA_COMPAT= .FALSE.
+#  NBANDS    = 80
+
+
+#Ionic minimization
+  ISIF      = 3
+  NSW       = 300
+  IBRION    = 2
+  EDIFFG    = -0.001 
+
+#DOS
+#  ISMEAR    = -5
+#  NEDOS     = 1001
+#  EMIN      = -10
+#  EMAX      = 10
+
+#Magnetism
+  ISPIN     = 2
+#  MAGMOM    = 0 0 3 0 0 3 0 0 3 0 0 3 0 0 4 0 0 4 0 0 4 0 0 4 36*0  
+  MAGMOM    = 4*3 4*3 12*0
+
+#Mixer
+#  AMIX      = 0.2
+#  BMIX      = 0.00001
+#  AMIX_MAG  = 0.8
+#  BMIX_MAG  = 0.00001
+
+#GGA+U
+#  LDAU      = .TRUE.
+#  LDAUTYPE  = 2
+#  LDAUL     = 0 2 0
+#  LDAUU     = 0 3.9 0.00
+#  LDAUJ     = 0.00 0.00 0.00
+#  LDAUPRINT = 2
+#  LMAXMIX   = 6 
+
+#MPI
+  NCORE     = 4

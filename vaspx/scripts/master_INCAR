@@ -1,0 +1,66 @@
+#System_Name
+  SYSTEM    = 
+  
+#Global_Parameters
+  ISTART    = 1
+  ENCUT     = 520
+  LREAL     = .FALSE.
+  ALGO      = Normal
+  PREC      = Accurate
+  ADDGRID   = .TRUE.
+  LASPH     = .TRUE.
+  GGA_COMPAT = .FALSE. 
+
+#Electronic_minimization
+  ISMEAR    = 0
+  EDIFF     = 1E-8
+  SIGMA     = 0.05
+  NELMIN    = 5
+  NELM      = 300
+  
+#Ionic_minimization
+  ISYM      = 0
+  ISIF      = 3
+  NSW       = 300
+  IBRION    = 2
+  EDIFFG    = -0.01 
+  
+#Output_Control
+  LORBIT    = 11
+  LWAVE     = .TRUE.
+#  LCHARG    = .TRUE.
+
+#Spin_Polarization
+  ISPIN     = 2 
+  VOSKOWN   = 1
+  MAGMOM    = 
+  
+#Band_and_DOS
+#  ICHARG   = 11
+#  NEDOS     = 601
+#  EMIN      = -10
+#  EMAX      = 10
+
+#Mixing_parameters
+#  AMIX      = 0.2
+#  BMIX      = 0.00001
+#  AMIX_MAG  = 0.8
+#  BMIX_MAG  = 0.00001
+
+#Hubbard_U
+#  LDAU      = .TRUE.
+#  LDAUTYPE  = 2
+#  LDAUL     = 2 0 0 0
+#  LDAUU     = 3.9 0.0 0.0 0.0
+#  LDAUJ     = 0.0 0.0 0.0 0.0
+#  LDAUPRINT = 2
+#  LMAXMIX   = 4 
+    
+#SOC_tags
+#  LSORBIT   = .TRUE.
+#  LORBMOM   = .TRUE.
+#  SAXIS     = 0 0 1
+#  NBANDS    = 80
+
+#MPI
+  NCORE     = 4
