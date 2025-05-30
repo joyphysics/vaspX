@@ -11,10 +11,10 @@ Features:
 - Generation of Phonopy input files
 - Shell-script based with minimal dependencies
 
-  #### Installation
+  ## Installation
   Installation guide will be provided soon...
 
-  #### Overview
+  ## Overview
 
   <p align="center">
   <img src="Figures/Demo.png" alt="..." title="..." width="600" style="display:inline-block;"/>
