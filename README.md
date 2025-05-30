@@ -10,3 +10,12 @@ Features:
 - Generation of Wannier90 input files
 - Generation of Phonopy input files
 - Shell-script based with minimal dependencies
+
+  #### Installation
+  Installation guide will be provided soon...
+
+  #### Overview
+
+  <p align="center">
+  <img src="Figures/Demo.png" alt="..." title="..." width="600" style="display:inline-block;"/>
+</p>
